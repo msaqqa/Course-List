@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+}
+
+  body {
+  background-color: #46529d;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container{
+  width: 60%;
+  margin: 10% auto;
+}
+.heading{
+  padding: 15px;
+  margin: 0;
+  font-size: 25px;
+}
+
+.ItemsList{
+  background-color: #fff;
+  color: #46529d;
+}
+.pargraph{
+  margin: 0;
+  padding: 10px 0px;
+}
+span{
+  display: inline-block;
+  padding: 10px 0;
+  font-size: 20px;
+  border: 0.3 solid #ccc
+}
+.name, form input[type=text]{
+  width: 50%;
+}
+.age, form input[type=number]{
+  width: 30%;
+}
+.action, form input[type=submit]{
+  width: 20%;
+}
+.title{
+  background-color: #2ebaee;
+  color: #fff;
+}
+.icon{
+  color: red;
+  cursor: pointer;
+}
+form input{
+  padding: 10px;
+  background-color: #ebebeb;
+  border: 0.3px solid #ccc;
+}
+form input[type=submit]{
+  background-color: #2ebaee;
+  color: #fff;
+  border: 0.3px solid #2ebaee;
+  cursor: pointer;
+}
